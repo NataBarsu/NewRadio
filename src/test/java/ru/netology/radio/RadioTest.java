@@ -52,7 +52,7 @@ public class RadioTest {
     @Test
     public void shouldSetNextStation() {
         Radio radio = new Radio();
-        radio.setCurrentStation(12);
+        radio.setCurrentStation(9);
         radio.nextStation();
         int expected =0;
         int actual = radio.getCurrentStation();
