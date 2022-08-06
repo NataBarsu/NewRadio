@@ -11,7 +11,7 @@ public class RadioTest {
         radio.setCurrentStation(13);
         Assertions.assertEquals(13, radio.getCurrentStation());
         Assertions.assertEquals(15, radio.getAmount());
-        Assertions.assertEquals(14, radio.getMaxStation());
+
     }
 
     @Test
@@ -20,7 +20,7 @@ public class RadioTest {
         radio.setCurrentStation(15);
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(15, radio.getAmount());
-        Assertions.assertEquals(14, radio.getMaxStation());
+
 
     }
 
@@ -30,7 +30,7 @@ public class RadioTest {
         radio.setCurrentStation(6);
         Assertions.assertEquals(6, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -39,7 +39,7 @@ public class RadioTest {
         radio.setCurrentStation(6);
         Assertions.assertEquals(6, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -48,7 +48,7 @@ public class RadioTest {
         radio.setCurrentStation(15);
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -57,7 +57,7 @@ public class RadioTest {
         radio.setCurrentStation(-1);
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(15, radio.getAmount());
-        Assertions.assertEquals(14, radio.getMaxStation());
+
     }
 
     @Test
@@ -66,7 +66,7 @@ public class RadioTest {
         radio.setCurrentStation(-1);
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -76,7 +76,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -86,7 +86,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(9, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -96,7 +96,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(1, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -106,7 +106,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(2, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -116,7 +116,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(6, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
 
@@ -127,7 +127,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
 
     }
 
@@ -139,7 +139,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(1, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -149,7 +149,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(2, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -159,7 +159,7 @@ public class RadioTest {
         radio.nextStation();
         Assertions.assertEquals(6, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
 
@@ -170,7 +170,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(17, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -180,7 +180,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(2, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -190,7 +190,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(16, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
 
@@ -201,7 +201,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(0, radio.getCurrentStation());
         Assertions.assertEquals(18, radio.getAmount());
-        Assertions.assertEquals(17, radio.getMaxStation());
+
     }
 
     @Test
@@ -211,7 +211,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(9, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -221,7 +221,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(2, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
@@ -231,7 +231,7 @@ public class RadioTest {
         radio.prevStation();
         Assertions.assertEquals(7, radio.getCurrentStation());
         Assertions.assertEquals(10, radio.getAmount());
-        Assertions.assertEquals(9, radio.getMaxStation());
+
     }
 
     @Test
